@@ -35,6 +35,3 @@ Screnshots :
 ![](https://github.com/alperentalaslioglu/onff.js/blob/master/online.png?raw=true)
 
 ![](https://github.com/alperentalaslioglu/onff.js/blob/master/offline.png?raw=true)
-
-
-
