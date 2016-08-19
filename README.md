@@ -4,6 +4,7 @@ onff.js is a simple JavaScript library to provide a functionality for websites t
 
 It is lightweight JavaScript library. You should just add onff.css and onff.js to your html page and then it works.
 
+Demo : https://embed.plnkr.co/pFNtxsCIy1DfVwZlezJV/
 
 Example usage : 
 
