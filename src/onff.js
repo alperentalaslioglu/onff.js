@@ -1,15 +1,10 @@
 window.addEventListener('load', function () {
 
     function updateOnlineStatus() {
-
         clearNotifiers();
-
         var condition = navigator.onLine ? "online" : "offline";
-
         prependStatusNotifierToPage(condition);
-
         addCloseListener();
-
     }
 
     window.addEventListener('online', updateOnlineStatus);
@@ -29,7 +24,6 @@ function prependStatusNotifierToPage(condition){
 
 function clearNotifiers() {
     var elements = document.getElementsByClassName('notifier');
-
     while (elements.length > 0) {
         elements[0].parentNode.removeChild(elements[0]);
     }
@@ -37,16 +31,8 @@ function clearNotifiers() {
 
 
 function addCloseListener(){
-
     var close = document.getElementsByClassName('close');
-
     close[0].addEventListener('click',function () {
-
         clearNotifiers();
-
     });
-    
 }
-
-
-
